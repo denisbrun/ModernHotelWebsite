@@ -196,6 +196,7 @@ p {
   width: 70%;
   display: block;
   margin: auto;
+  border-radius: 50%;
 }
 
 #aboutInfo .infoLeft {
@@ -203,7 +204,6 @@ p {
   width: 50%;
   min-height: 100%;
 }
-
 
 /* Testimonials */
 
@@ -262,6 +262,8 @@ border: 1px #ddd solid;
   border-color: #f7C08A
 }
 
+
+=======
 
 /* Page Footer */
 #mainFooter {
