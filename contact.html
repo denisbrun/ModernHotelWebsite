@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="Welcome to a modern twist to a simple hotel website">
   <meta name="keywords" content="hotel,modern,moncton,new brunswick motel">
+  <script src="https://kit.fontawesome.com/bbd9ee6682.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <title>Modern Hotel Website | Contact Us</title>
 </head>
@@ -23,6 +24,49 @@
     </nav>
   </header>
   
+  <section id="contactForm" class="py-3">
+    <div class="container">
+      <h1 class="l-heading"><span class="textPrimary">Contact</span> Us</h1>
+    
+    <p>Please fill out the form to get in touch with us.</p>
+    <form action="process.php">
+      <div class="formGroup">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+      </div>
+      <div class="formGroup">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="formGroup">
+        <label for="message">Message</label>
+        <textarea type="message" name="message" id="message"></textarea>
+      </div>
+      <button class="button" type="submit">Submit</button>
+    </form>
+  </div>
+  </section>
+
+  <section id="contactInfo" class="backgroundDark">
+    <div class="container">
+      <div class="box">
+        <i class="fas fa-hotel fa-3x"></i>
+        <h3>Location</h3>
+        <p>123 Main St. Moncton NB</p>
+      </div>
+      <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Phone Number</h3>
+          <p>+1 (506) 123-4512</p>
+      </div>
+      <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Email Address</h3>
+          <p>info@MHW.com</p>
+      </div>
+    </div>
+  </section>
+
   <div class="clr"></div>
   <footer id="mainFooter">
     <p>Modern Hotel Site &copy; 2019, All Rights Reserved</p>
