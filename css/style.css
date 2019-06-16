@@ -239,6 +239,10 @@ p {
   margin-bottom: 20px;
 }
 
+#contactForm h1 {
+  padding-top: 5px;
+}
+
 #contactForm label {
   display: block;
   margin-bottom: 5px;
@@ -263,7 +267,6 @@ border: 1px #ddd solid;
 }
 
 
-=======
 
 /* Page Footer */
 #mainFooter {
