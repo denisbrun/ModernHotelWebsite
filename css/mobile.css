@@ -29,3 +29,19 @@
   float: none;
   width: 100%;
 }
+
+/* About Us Page */
+
+#aboutInfo .infoRight,
+#aboutInfo .infoLeft {
+  float: none;
+  width: 100%;
+}
+
+#aboutInfo .infoRight {
+  margin-top: 30px;
+}
+
+.l-heading {
+text-align: center;
+}
