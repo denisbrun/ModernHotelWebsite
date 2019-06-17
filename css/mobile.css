@@ -38,10 +38,24 @@
   width: 100%;
 }
 
+#aboutInfo .infoLeft .l-heading {
+  font-size: 2rem;
+}
+
 #aboutInfo .infoRight {
   margin-top: 30px;
 }
 
 .l-heading {
 text-align: center;
+}
+
+#testimonials .container h2 {
+  line-height: 1.2;
+}
+
+/* Contact  */
+
+#contactInfo .box {
+  border-bottom: #444 dotted 1px;
 }
